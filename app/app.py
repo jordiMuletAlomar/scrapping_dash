@@ -10,7 +10,7 @@ from flask import Flask
 from sqlalchemy import create_engine
 
 dialect = 'mysql+pymysql://root:Bigdata2122@localhost:3306/scrapping'
-dialect = 'mysql+pymysql://root@localhost:3306/scrapping'
+#dialect = 'mysql+pymysql://root@localhost:3306/scrapping'
 sqlEngine = create_engine(dialect)
 
 sentencia = f"SELECT * FROM jordimulet_eventos"
